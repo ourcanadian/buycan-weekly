@@ -1,4 +1,4 @@
-# Buy Canadian Thread Creator (thread-creator)
+# Buy Canadian Weekly (buycan-weekly)
 
 
 This is a Reddit bot that creates weekly threads on [/r/BuyCanadian](https://www.reddit.com/r/BuyCanadian/)
@@ -7,16 +7,16 @@ To install and run the Thread-Creator you need have [git](https://git-scm.com/do
 
 Open your command terminal in the directory in which you would like to Ocwa and clone the repo.
 ```
-git clone https://github.com/ourcanadian/wiki-replier.git
+git clone https://github.com/ourcanadian/buycan-weekly.git
 ```
 
 Enter the repo and install the neccassary libraries.
 ```
-cd thread-creator
+cd buycan-weekly
 pip3 install -r requirements.txt
 ```
 
-In order to get to the good stuff, you will need the API Token and login info, which are kept private to prevent security risks. These things are only ever stored in local `praw.ini` files. Request the `praw.ini` content from an admin or via rylancole@ourcanadian.ca. Once you have the content, create a `praw.ini` file in the `thread-creator/` directory, and don't worry `.gitignore` will make sure you don't push the `praw.ini` file up to github. That would be trouble.
+In order to get to the good stuff, you will need the API Token and login info, which are kept private to prevent security risks. These things are only ever stored in local `praw.ini` files. Request the `praw.ini` content from an admin or via rylancole@ourcanadian.ca. Once you have the content, create a `praw.ini` file in the `buycan-weekly/` directory, and don't worry `.gitignore` will make sure you don't push the `praw.ini` file up to github. That would be trouble.
 
 Now you can run the bot from within the directory giving it a key to access the post metadata
 ```
