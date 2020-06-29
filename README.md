@@ -1,4 +1,4 @@
-# Buy Canadian Weekly (buycan-weekly)
+# /r/BuyCanadian Weekly Bot (buycan-weekly)
 
 
 This is a Reddit bot that creates weekly threads on [/r/BuyCanadian](https://www.reddit.com/r/BuyCanadian/)
