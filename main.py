@@ -4,14 +4,14 @@ import time
 import json
 import sys
 
-DISCUSSION_FLAIR = "cd3ac86c-7e23-11e8-a564-0e214a49b15e"
+WEEKLY_POST = "3d13b4c2-ba2d-11ea-abe0-0e79786e34f5"
 
 POST_TEMPLATES = {
     "provinces": {
-        "title": "Monday Province Thread", 
+        "title": "Monday Reccomendation Thread", 
         "selftext": "Hello r/BuyCanadian!  \n\nHere's your weekly thread to recommend your favourite Canadian businesses in your province or territory. Find your location below and reply with the best your area has to offer.  \n\nIf you see room for improvement on our weekly posts, please message the mod team.", 
-        "flair_id": DISCUSSION_FLAIR,
-        "replyWith": [
+        "flair_id": WEEKLY_POST,
+        "replyList": [
             "Alberta", "British Columbia", "Manitoba", "New Brunswick", "Newfoundland and Labrador", "Northwest Territories", "Nova Scotia", "Nunuvat", "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"
         ],
         "modRules": [
@@ -21,7 +21,7 @@ POST_TEMPLATES = {
     "iso": {
         "title": "Thursday 'In Search Of' Thread", 
         "selftext": "Hello r/BuyCanadian!  \n\nHere's your weekly thread to comment what you have been looking for, but just can't seem to find. If your search doesn't need its own post, or has been posted before without luck, this is the thread for you!  \n\nIf you see room for improvement on our weekly posts, please message the mod team.", 
-        "flair_id": DISCUSSION_FLAIR,
+        "flair_id": WEEKLY_POST,
         "modRules": [
             "approve", "distinguish", "sticky"
         ]
@@ -29,14 +29,17 @@ POST_TEMPLATES = {
     "mega_topic": {
         "title": "Friday MegaThread for ", 
         "selftext": "Hello r/BuyCanadian!  \n\nHere's your weekly thread to recommend your favourite Canadian products related to this week's topic!  \n\nIf you see room for improvement on our weekly posts, please message the mod team.", 
-        "flair_id": DISCUSSION_FLAIR,
-        "replyWith": [
+        "flair_id": WEEKLY_POST,
+        "replyList": [
             "Reply to this comment with suggestions for a future Friday Megathread topic!"
         ],
         "modRules": [
             "approve", "distinguish", "distinguish_comments", "sticky", "sticky_comments"
         ],
         "varFile": "./var-files/mega_topic.json"
+    }, 
+    "none": {
+
     }
 }
 
